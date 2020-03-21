@@ -15,6 +15,7 @@ jobs:
         java-version: '12.x'
     - uses: subosito/flutter-action@v1.1.1
       with:
+        flutter-version: '1.12.x'
         channel: 'dev'
       env:
         KEY_JKS: ${{ secrets.KEY_JKS }}
